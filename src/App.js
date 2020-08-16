@@ -1,10 +1,21 @@
 import React from "react";
 import "./App.css";
+import { FormControl, MenuItem, Select } from "@material-ui/core";
 
 function App() {
   return (
     <div className="app">
-      <h1>Let's build a COVID-19 Tracker App</h1>
+      <div className="app__header">
+        <h1>COVID-19 TRACKER</h1>
+        <FormControl className="app__dropdown">
+          <Select variant="outlined" value="abc">
+            <MenuItem value="worldwide">Worldwide</MenuItem>
+            <MenuItem value="worldwide">Option 1</MenuItem>
+            <MenuItem value="worldwide">Option 2</MenuItem>
+            <MenuItem value="worldwide">Worldwide</MenuItem>
+          </Select>
+        </FormControl>
+      </div>
 
       {/* Header */}
       {/* Title + Dropdown field*/}
