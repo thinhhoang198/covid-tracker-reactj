@@ -1,0 +1,24 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infoBox__cases {
+  color: red;
+}
+
+.infoBox__recovered {
+  color: green;
+}
+
+.infoBox__deaths {
+  color: orange;
+}
+
+.infoBox--selected {
+  border-bottom: 10px solid gray;
+}
