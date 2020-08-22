@@ -80,7 +80,9 @@ function LineGraph({ casesType }) {
   }, [casesType]);
   return (
     <div>
-      <h2 style={{ textAlign: "center" }}>Worldwide new {casesType}</h2>
+      <h2 style={{ textAlign: "center", color: "#6a5d5d" }}>
+        Worldwide new {casesType}
+      </h2>
       {data?.length > 0 && (
         <Line
           options={options}

@@ -32,6 +32,14 @@ body {
 .app__left {
   flex: 0.9;
 }
+
+.app__right {
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
 .app__stats {
   display: flex;
   justify-content: space-between;
